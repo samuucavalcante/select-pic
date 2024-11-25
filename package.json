@@ -1,0 +1,35 @@
+{
+  "name": "select-pic",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts && clear"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/fs-extra": "^11.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/blazeface": "^0.1.0",
+    "@tensorflow-models/face-landmarks-detection": "^1.0.6",
+    "@tensorflow-models/facemesh": "^0.0.5",
+    "@tensorflow/tfjs-converter": "^4.22.0",
+    "@tensorflow/tfjs-core": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "@vladmandic/face-api": "^1.7.14",
+    "add": "^2.0.6",
+    "axios": "^1.7.7",
+    "bun": "^1.1.36",
+    "canvas": "^2.11.2",
+    "face-api.js": "^0.22.2",
+    "fs-extra": "^11.2.0",
+    "google-auth-library": "^9.15.0",
+    "jimp": "^1.6.0",
+    "path": "^0.12.7",
+    "sharp": "^0.33.5",
+    "uuid": "^11.0.3"
+  }
+}
